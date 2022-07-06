@@ -1,0 +1,674 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+.clearfix { overflow: auto; }
+* {font-family: "Apercu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	/*background-image: url("https://www.codecademy.com/webpack/6dbde596705090b98e4012a740c0bedb.svg")*/
+}
+
+nav {
+	background-color: white;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+}
+
+.nav-bar-container {
+	width: 100%;
+	height: 70px;
+}
+
+nav .nav-bar {
+	margin: 0px;
+	padding: 25px;
+}
+
+.nav-bar ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+.nav-bar img {
+	width: 131.25px;
+	height: 27px;
+	margin-left: 110px;
+}
+
+.nav-bar .list li {
+	margin-left: 18px;
+	margin-top: 3px;
+	font-size: 16px;
+}
+
+.nav-bar .list a {
+	color: black;
+}
+
+.nav-bar .list a:hover {
+	color: blue;
+}
+
+.nav-bar-login {
+	float: right;
+	margin-right: 110px;
+	display: block;
+}
+
+.nav-bar-login button {
+	font-size: 1rem;
+ 	padding: 8px 15px 12px 15px;
+  	border: none;
+  	color: #3a10e5;
+  	cursor: pointer;
+  	background-color: white;
+}
+
+.nav-bar-login button:hover{
+	background-color: #f6f5fad5;
+  	border-radius: 4px;
+}
+
+.wrapper .collage-container {
+	width: 50%;
+	float: left;
+	margin-top: 25px;
+	position: relative;
+}
+
+.square {
+  	height:230px;
+  	width: 230px;
+  	background-color: #ff8ff5;
+  	float: right;
+  	margin: 0px 80px 0px 0px;
+  	display: block;
+}
+
+.circle-container {
+	width: 120px;
+	height: 24px;
+	margin: 0px 0px 0px 135px;
+}
+
+.circle {
+  	height: 24px;
+  	width: 24px;
+  	background-color: #141c3a;
+  	border-radius: 50%;
+  	display: inline-block;
+  	margin-right: 10px;
+}
+
+.img-container {
+    float: right;
+    display: block;
+    margin: 35px 0px 0px 208px;
+    position: absolute;
+}
+
+.rectangle-container {
+	width: 164px;
+	height: 96px;
+	margin: 70px 0px 0px 275px;
+	display: block;
+	position: absolute;
+}
+
+.rectangle {
+  	background-color: #141c3a;
+    display: block;
+    height: 18px;
+   	width: 164px;
+   	margin-top: 14px;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 300px solid #64edbf;
+	position: absolute;
+	display: block;
+	margin: 395px 0px 0px 135px;
+}
+
+.blue-rectangle {
+	width: 463px;
+	height: 235px;
+	background-color: #6400e4;
+	display: block;
+	position: absolute;
+	margin: 230px 0px 0px 100px;
+}
+
+.blue-rectangle h1 {
+	font-size: 47px;
+	color: white;
+	padding: 30px 0px 0px 35px;
+	line-height: 115%;
+}
+
+.form-container {
+	width: 50%;
+	float: right;
+}
+
+.all {
+	margin: 50px 0px 0px 185px;
+}
+
+.form-container .form {
+	text-decoration: none;
+}
+
+.form-container h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.form input {
+	padding: 16px 100px 16px 90px;
+	margin: 10px 0px 25px 0px;
+	border: 1px solid #777;
+	border-radius: 2px;
+}
+
+.form input:hover {
+	border: 1px solid blue;
+}
+
+.form i {
+	margin-left: 255px;
+}
+
+.form button {
+	padding: 10px 20px;
+	color: #666;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	background: #dddce0;
+}
+
+.form-container .all p {
+	margin: 20px 0px 15px 0px;
+	font-size: 14px;
+}
+
+.form-container .all p a {
+	color: blue;
+}
+
+.form-container .all h4 {
+	color: #222;
+}
+
+.socialmedia ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 15px 5px 0px 0px;
+	padding: 8px 30px 8px 30px;
+	border: 2px solid #f6f5fa;
+	border-radius: 2px;
+	cursor: pointer;
+	background: #ffff;
+}
+
+.socialmedia ul li:hover {
+	box-shadow: 0.5px 2px 5px 1.5px #bbb;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+header .all-header {
+	width: 1490Px;
+	height: 430px;
+}
+
+header .all-header .header-img {
+	float: right;
+	overflow: hidden;
+	display: block;
+	margin: 64px 0px 0px 20px;
+	z-index: 10;
+}
+
+header .header-container {
+	width: 1215Px;
+	height: 424px;
+	background-color: #6400e4;
+	margin: 835px 0px 0px 135px;
+}
+
+header .header-container h2 {
+	font-size: 45px;
+	color: white;
+	margin: 0px 0px 25px 65px;
+	padding-top: 50px;
+	line-height: 120%;
+}
+
+header .header-container h2 .begin {
+	color: #ffd500;
+}
+
+header .header-container p {
+	color: white;
+	font-size: 18px;
+	margin: 0px 0px 20px 65px;
+}
+
+header .header-container button {
+	width: 175px;
+	height: 55px;
+	border: none;
+	border-radius: 50px;
+	margin: 0px 0px 0px 65px;
+	background-color: #ffd500;
+}
+
+header .header-container button .btn {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.headline-container {
+	width: 1518px;
+	height: 150px;
+	margin-top: 45px;
+}
+
+.headline-container .headline {
+	font-size: 20px;
+	font-style: none;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 20px 0px 0px 220px;
+	position: absolute;
+	color: #222;
+}
+
+.intro-container .section-col {
+	margin-top: 60px;
+}
+
+.section-col {
+	width: 1518px;
+	height: 225px;
+	display: inline-block;
+}
+
+.section-col .circle h1 {
+	text-align: center;
+	margin-top: 8px;
+	font-size: 35px;
+}
+
+.section-col .big-circle {
+	height: 97px;
+  	width: 97px;
+  	background-color: #eff2ff;
+  	border-radius: 50px;
+  	margin: 50px 0px 0px 275px;
+  	position: absolute;
+  	box-shadow: 0 0 5px rgb(0 0 0 / 15%), 0 0 7px #fff;
+}
+
+.section-col .circle {
+	height: 67px;
+  	width: 67px;
+  	background-color: #fff;
+  	border-radius: 50px;
+  	margin: 65px 0px 0px 290px;
+  	position: absolute;
+  	box-shadow: 0px 2px 3px rgb(0 0 0 / 15%);
+}
+
+.section-col img {
+	margin: 0px 0px 0px 470px;
+	position: absolute;
+	display: inline-block;
+}
+
+.section-col .dis-container {
+	float: right;
+	margin: 15px 230px 0px 0px;
+}
+
+.section-col .dis-container h1 {
+	color: #222;
+	margin-bottom: 15px;
+}
+
+.section-col .dis-container p {
+	font-size: 18px;
+	line-height: 180%;	
+}
+
+.home-container {
+	width: 100%;
+	height: 880px;
+	background-color: #1D2340;
+	background-image: url(https://www.codecademy.com/webpack/e0d9df921d35e41443746c8c5ecde4d8.svg);
+  	background-repeat: no-repeat;
+	background-size: 1825px 650px;
+	overflow: hidden;
+	position: relative;
+}
+
+.b-img-container {
+	width: 100%;
+	height: 60px;
+}
+
+.b-img-container img {
+	margin-left: 1353px;
+	position: absolute;
+	z-index: 1;
+}
+
+.home-container img {
+	margin: 30px 0px 0px 73px;
+	position: absolute;
+}
+
+.home-container .why-code {
+	margin-top: 115px;
+}
+
+.home-container .why-code h1 {
+	text-align: center;
+	font-size: 58px;
+	color: white;
+	line-height: 65px;
+	margin-top: 20px;
+}
+
+.home-container .why-code h1 span {
+	color: #6aebc0;
+}
+
+.home-container .why-code h1 span-1 {
+	color: #ffd500;
+}
+
+.home-container .home-col {
+	width: 1400px;
+	height: 255px;
+	margin: 145px 0px 0px 80px;
+}
+
+.home-sub-col .exsubcol {
+	margin-top: 42px;
+}
+
+.home-container .home-col .home-sub-col {
+	width: 375px;
+	height: 250px;
+	display: inline-block;
+	float: left;
+	margin-left: 60px;
+}
+
+.home-sub-col h1 {
+	color: white;
+	text-align: center;
+}
+
+.home-sub-col hr {
+	color: white;
+	border-width: 1.3px;
+	background-color: white;
+	margin: 15px 0px 15px 0px;
+}
+
+.home-sub-col ul li span {
+	height: 10px;
+ 	width: 10px;
+  	border-radius: 50%;
+  	display: inline-block;
+  	margin-right: 6px;
+}
+
+.home-sub-col ul li .dot-1 {
+	background-color: #ffd500;
+}
+
+.home-sub-col ul li .dot-2 {
+	background-color: #6aebc0;
+}
+
+.home-sub-col ul li .dot-3 {
+	background-color: #6400e4;
+}
+
+.home-sub-col ul li {
+	color: white;
+	margin-right: 20px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.home-sub-col p {
+	color: white;
+	font-size: 18px;
+	margin-top: 18px;
+}
+
+.start-container {
+	width: 100%;
+	height: 575px;
+	background-color: #6400e4;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.start-container .img-1 {
+	position: absolute;
+	left: -110px;
+	bottom: 10px;
+}
+
+.start-container .img-1 img{
+	width: 85%;	
+}
+
+.start-container .img-2 {
+	position: absolute;
+	top: -20px;
+	right: 15px;
+	z-index: 0;
+}
+
+.start-container .img-2 img{
+	width: 85%;
+}
+
+.start-container .img-3 {
+	position: absolute;
+	bottom: 45px;
+	right: -25px;
+}
+
+.start-container .discrip-container {
+	width: 800px;
+	height: 300px;
+	text-align: center;
+	position: absolute;
+	top: 28%;
+	left: 25%;
+}
+
+.discrip-container .h1 h1 {
+	color: white;
+	font-size: 55px;
+	line-height: 110%;
+}
+
+.discrip-container .para {
+	color: white;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.discrip-container .btn {
+	margin-top: 35px;
+}
+
+.discrip-container .btn button {
+	padding: 12px 110px;
+	background: transparent;
+	border:1px solid white;
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition:all 0.1s ease-in-out;
+}
+
+.discrip-container .btn button:hover {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+	background-color: #fff;
+	color: #000;
+}
+
+footer .footer-container {
+	width: 100%;
+	height: 525px;
+}
+
+.half-container {
+	width: 760px;
+	height: 450px;
+	border-right: 1px solid black;
+  	height: 410px;
+  	float: left;
+  	margin-top: 35px;
+}
+
+.footer-col ul li {
+	list-style: none;
+	margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+	color: black;
+}
+
+.footer-col h4 {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.footer-col .footer-col-sub {
+	margin-top: 30px;
+}
+
+.row-1-container {
+	width: 700px;
+	height: 200px;
+	margin: -5px 0px 0px 25px;
+}
+
+.row-1-container .footer-col {
+	margin-left: 115px;
+}
+
+.row-2-container {
+	width: 700px;
+	height: 200px;
+	margin: 10px 0px 0px 75px;
+}
+
+.row-2-container .footer-col {
+	margin-left: 60px;
+}
+
+.footer-container .footer-col {
+	display: inline-block;
+	float: left;
+}
+
+.footer-container .footer-right-container {
+	width: 695px;
+	height: 450px;
+	float: right;
+}
+
+.footer-rightcol {
+	display: inline-block;
+	float: left;
+}
+
+.footer-rightcol ul li {
+	list-style: none;
+	margin-bottom: 8px;
+}
+
+.footer-rightcol ul li a {
+	color: black;
+}
+
+.footer-rightcol h4 {
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.footer-rightcol h5 {
+	margin: 20px 0px 20px 0px;
+	font-weight: 640;
+}
+
+.footer-rightcol .list-1 {
+	margin: 50px 0px 0px 150px;
+	float: left;
+}
+
+.footer-rightcol .list-2 {
+	float: right;
+	margin: 107px 0px 0px 75px;
+}
+
+.copyright-container {
+	width: 1250px;
+	height: 55px;
+	border-top: 1px solid black;
+  	margin: 20px 0px 0px 135px;
+  	float: left;
+}
+
+.copyright-container .left {
+	float: left;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.copyright-container .left a {
+	color: black;
+}
+
+.copyright-container .right {
+	float: right;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.footer-container .hl {
+	border-bottom: 1px solid black;
+  	height: 400px;
+}
